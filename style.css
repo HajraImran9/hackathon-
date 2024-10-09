@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+hr {
+    width: 80%; 
+    border: 0.5px solid #333; 
+    margin: 20px auto; 
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+header p {
+    font-size: 16px;
+}
+
+.intro {
+    padding: 20px;
+    background-color: #fff;
+}
+
+.article-section {
+    padding: 20px;
+    background-color: #fff;
+}
+
+.article-section article {
+    margin-bottom: 40px;
+}
+
+.article-section h2 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.article-section h2 a {
+    text-decoration: none;
+    color: #007acc;
+}
+
+.article-section img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.article-section p {
+    font-size: 16px;
+    color: #555;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    header h1 {
+        font-size: 20px;
+    }
+
+    .article-section h2 {
+        font-size: 18px;
+    }
+
+    .article-section img {
+        width: 100%;
+        max-width: none;
+    }
+}
+.dotted-line {
+    border-bottom: 2px dashed #000;
+    width: 100%; 
+    margin: 20px 0;
+}
+
+@media (max-width: 768px) {
+    .dotted-line {
+        width: 100%; 
+    }
+}
+
+.book-section {
+    display: flex;
+    align-items: flex-start;
+    margin: 20px;
+}
+
+.book-cover {
+    margin-right: 20px;
+}
+
+.book-cover img {
+    width: 150px;
+}
+
+.caption {
+    font-size: 14px;
+    color: gray;
+    text-align: center;
+}
+
+.text-right {
+    max-width: 600px;
+}
+
+@media (max-width: 768px) {
+    
+    .book-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .book-cover {
+        margin-right: 0;
+    }
+
+    .text-right {
+        text-align: center;
+    }
+}
+@media (max-width: 768px) {
+    
+    img[alt="Business communication instructor"], 
+    img[alt="Dolly Parton"], 
+    img[alt="Business communication instructor"],
+    img[alt="AI Dog Chef"],
+    img[alt="Business communication"]  {
+        width: 192px; 
+        height: auto; 
+    }
+}
